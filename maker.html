@@ -13,6 +13,19 @@
       margin-left:auto;
       text-align:center
     }
+    .slideshow {
+      position: relative;
+      width: 640px; /* Set the width of the slideshow container */
+      height: 360px; /* Set the height of the slideshow container */
+    }
+    .slide {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     </style>
 
 <body style="background-image:linear-gradient(to right,#495057, #6c757d, #adb5bd, #ced4da, #dee2e6, #dee2e6, #ced4da, #adb5bd, #6c757d, #495057)">
@@ -31,85 +44,75 @@
 
 </head>
 
-<div style="width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">
+<div style="width:50%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">
   <h1><u><b>Projects</b></u></h1>
+  <P>
+    Welcome to my projects page! The slideshow below showcases some of the projects I have worked on. More information about these 
+    project can be found on my github page (link below).Thanks for visiting!
+  </P>
 </div>
 
 <!-- Slide Show -->
-<section style="background-image:linear-gradient(180deg,#495057, #6c757d, #adb5bd, #ced4da, #dee2e6, #dee2e6, #ced4da, #adb5bd, #6c757d, #495057); border-radius: 50px 50px 50px 50px; width:75%; margin-right:auto; margin-left:auto; padding-bottom: 45px; padding-top: 10px;">
-    
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">AI-Assisted Papyrology (under development)</h2></a>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">AI-Assisted Papyrology (under development)</h2></a>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">AI-Assisted Papyrology (under development)</h2></a>
+<section style="display:flex; justify-content:center; height: 50vh; background-image:linear-gradient(180deg,#495057, #6c757d, #adb5bd, #ced4da, #dee2e6, #dee2e6, #ced4da, #adb5bd, #6c757d, #495057); border-radius: 50px 50px 50px 50px; width:75%; margin-right:auto; margin-left:auto; padding-bottom: 45px; padding-top: 10px;">
+  <div class="slideshow">
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">AI-Asssited Papyrology (under development)</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/transkrybe.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Music Video Calendar and Candy Dispenser</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/treat.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Lego Sorting with the Dobot Magician and Pixy 2 camera</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/dobot.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">BoneTwin - Anthropology Lab Software</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/bonetwin.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Arduino Controller for Classroom A/V System</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/button.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Maker Garden - Automatic Watering System</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/garden.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
 
-    <!-- <a href="https://github.com/mis2n/TreatMachine"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Music Video Calendar and Candy Dispenser</h2></a>
-    <a href="https://github.com/mis2n/TreatMachine"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Music Video Calendar and Candy Dispenser</h2></a>
-    <a href="https://github.com/mis2n/TreatMachine"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Music Video Calendar and Candy Dispenser</h2></a> -->
-
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Lego Sorting with the Dobot Magician and Pixy 2 camera</h2>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Lego Sorting with the Dobot Magician and Pixy 2 camera</h2>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Lego Sorting with the Dobot Magician and Pixy 2 camera</h2>
-
-    <a href="https://yangseung77.github.io/bonetwin/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">BoneTwin - Anthropology Software</h2></a>
-    <a href="https://yangseung77.github.io/bonetwin/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">BoneTwin - Anthropology Software</h2></a>
-    <a href="https://yangseung77.github.io/bonetwin/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">BoneTwin - Anthropology Software</h2></a>
-
-    <!-- <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Button Box - Arduino Controller for Classroom Audio/Video System</h2>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Button Box - Arduino Controller for Classroom Audio/Video System</h2>
-    <h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Button Box - Arduino Controller for Classroom Audio/Video System</h2>
-
-    <a href="https://github.com/MTSUMakerspace/MakerGarden/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Maker Garden - Automatic Moisture Monitoring and Watering</h2></a>
-    <a href="https://github.com/MTSUMakerspace/MakerGarden/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Maker Garden - Automatic Moisture Monitoring and Watering</h2></a>
-    <a href="https://github.com/MTSUMakerspace/MakerGarden/"><h2 class="giftitles"; style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Maker Garden - Automatic Moisture Monitoring and Watering</h2></a>
-    
-     -->
-    <img class="mySlides" src="images/transkrybe1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/transkrybe2.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/transkrybe3.gif" style="width:50%; margin-right:auto; margin-left:auto">
-
-    <!-- <img class="mySlides" src="images/treat1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/treat2.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/treat3.gif" style="width:50%; margin-right:auto; margin-left:auto"> -->
-
-    <img class="mySlides" src="images/bot1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/bot2.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/bot3.gif" style="width:50%; margin-right:auto; margin-left:auto">
-
-    <img class="mySlides" src="images/bone1.png" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/bone2.png" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/bone3.png" style="width:50%; margin-right:auto; margin-left:auto">
-
-    <!-- <img class="mySlides" src="images/button1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/button2.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/button3.gif" style="width:50%; margin-right:auto; margin-left:auto">
-
-    <img class="mySlides" src="images/garden1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/garden1.gif" style="width:50%; margin-right:auto; margin-left:auto">
-    <img class="mySlides" src="images/garden1.gif" style="width:50%; margin-right:auto; margin-left:auto"> -->
-    
-
-    <script>
-        // Automatic Slideshow - change image every 3 seconds
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        var y = document.getElementsByClassName("giftitles");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-            y[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        y[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000);
-        }
-    </script>
 </section>
 <br>
+
+<script>
+  let slideIndex = 0;
+  showSlide();
+
+  function showSlide() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlide, 5000); // Change the slide every 5 seconds
+  }
+</script>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-16 w3-center w3-black w3-xlarge" style="width:50%; margin-right:auto; margin-left:auto;border-radius: 50px 50px 50px 50px">
