@@ -7,15 +7,30 @@
 <link rel="icon" href="favicon.ico" type="image/gif" />
 
 <style>
-    .content {
-      max-width: 100%;
-      margin: auto;
-    }
-    </style>
+  .content {
+    width:75%; 
+    margin-right:auto; 
+    margin-left:auto;
+    text-align:center
+  }
+  .slideshow {
+    position: relative;
+    width: 640px; /* Set the width of the slideshow container */
+    height: 360px; /* Set the height of the slideshow container */
+  }
+  .slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
 
 <body style="background-image:linear-gradient(to right,#495057, #6c757d, #adb5bd, #ced4da, #dee2e6, #dee2e6, #ced4da, #adb5bd, #6c757d, #495057)">
 <head>
-    <br>
+
     <!-- Navigation -->
     <nav class="w3-bar w3-gray" style="width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; border-radius: 50px 50px 50px 50px;">
     <img src="images/circlogo.png" class="w3-bar-item" width="125" height="125">
@@ -30,34 +45,98 @@
 
   <!-- Home -->
 <div class="content">
-  <section class="w3-container w3-content w3-center" style="max-width:50%">
+  <section class="w3-container w3-content w3-center" style="max-width:75%">
     <h1><u><b>Welcome to my page!</b></u></h1>
-    <br>
+    
     <h3>AI Researcher &#8226; Computer Scientist &#8226; Physicist</h3>
-    <br>
+    
     <p class="w3">
         <b>
             Hello! I am an AI and Machine Learning researcher with a background in physics and astronomy. My <a href="publications.html" style="color:blueviolet">research</a> 
-            focuses on interdisciplinary applications of AI and Machine Learning. Specifically, my work bridges the 
-            gap between state-of-the-art technologies and ancient literary texts utilizing technologies including 
-            Handwritten Text Recognition (HTR/OCR), Natural Language Processing (NLP), and statistical analysis. My 
-            work specifically focuses on the field of papyrology, but is broadly applicable to computer vision and 
-            language modeling research. 
-            <br><br>
-            I am the proud creator of the <a href="https://www.kaggle.com/datasets/miswindall/al-pub-v2" style="color:blueviolet">AL-PUB dataset</a>, a large-scale, crowdsourced 
-            image dataset containing Greek characters on ancient papyri. This dataset is available on Kaggle and has 
-            been used in several deep learning based research projects. Other research projects include blockchain 
-            and smart contracts for digital edition management, as well as transfer learning and generative AI. I am 
-            also interested in the application of AI and Machine Learning to other fields such as physics, chemistry, 
-            and astronomy. Additional interests include quantum computing & HPC clusters. Please check out AL-PUB, 
-            my computational projects, and social media pages at the links below. Thanks for visiting! 
+            focuses on interdisciplinary applications of AI and ML. Specifically, my work bridges the gap between state-of-the-art technologies and ancient literary texts utilizing technologies including 
+            Handwritten Text Recognition, Natural Language Processing, and statistical analysis. My work specifically focuses on the field of papyrology, but is broadly applicable to computer vision and 
+            language modeling research. Check out my  project slideshow, additional links, and socials <span style="color:blueviolet">&#11015; <a href="#footer"><b>below</b></a> &#11015;</span></b>
         </b>
     </p>
 </section>
+
+<h2><u><b>Projects</b></u></h2>
+<section style="display:flex; justify-content:center; height: 50vh; background-image:linear-gradient(180deg,#495057, #6c757d, #adb5bd, #ced4da, #dee2e6, #dee2e6, #ced4da, #adb5bd, #6c757d, #495057); border-radius: 50px 50px 50px 50px; width:75%; margin-right:auto; margin-left:auto; padding-bottom: 45px; padding-top: 10px;">
+  <div class="slideshow">
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">AI-Asssited Papyrology (under development)</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/transkrybe.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Music Video Calendar and Candy Dispenser</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/treat.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Lego Sorting with the Dobot Magician and Pixy 2 camera</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/dobot.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:75%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">BoneTwin - Anthropology Lab Software</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/bonetwin.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Arduino Controller for Classroom A/V System</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/button.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="slide">
+      <h3 style="color:white; width:100%; margin-right:auto; margin-left:auto; padding-bottom:10px; padding-top:5px; text-align:center">Maker Garden - Automatic Watering System</h3>
+      <video width="100%" height="100%" autoplay loop muted>
+        <source src="video/garden.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+</section>
 <br>
+<section class="w3-container w3-content w3-center" style="max-width:75%">
+  <p class="w3">
+      <b>
+          I am the proud creator of the <a href="https://www.kaggle.com/datasets/miswindall/al-pub-v2" style="color:blueviolet">AL-PUB dataset</a>, a large-scale, crowdsourced 
+          image dataset containing Greek characters on ancient papyri. This dataset is available on Kaggle and has 
+          been used in several deep learning based research projects. Other research projects include blockchain 
+          and smart contracts for digital edition management, as well as transfer learning and generative AI. I am 
+          also interested in the application of AI and Machine Learning to other fields such as physics, chemistry, 
+          and astronomy. Additional interests include quantum computing & HPC clusters. Please check out AL-PUB, 
+          my computational projects, and social media pages at the links below. Thanks for visiting! 
+      </b>
+  </p>
+</section>
+
+<script>
+  let slideIndex = 0;
+  showSlide();
+
+  function showSlide() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlide, 5000); // Change the slide every 5 seconds
+  }
+</script>
 
 
-<section class="w3-row-padding w3-center w3-light-grey", style="background-image:linear-gradient(360deg,#70d6ff, #ff70a6, #ff9770, #ffd670, #e9ff70, #ffd670, #ff9770, #ff70a6, #70d6ff); width:50%; padding-bottom:15px; margin-right:auto; margin-left:auto; border-radius: 50px 50px 50px 50px">
+<section id="footer" class="w3-row-padding w3-center w3-light-grey", style="background-image:linear-gradient(360deg,#70d6ff, #ff70a6, #ff9770, #ffd670, #e9ff70, #ffd670, #ff9770, #ff70a6, #70d6ff); width:50%; padding-bottom:15px; margin-right:auto; margin-left:auto; border-radius: 50px 50px 50px 50px">
     <article class="w3-third">
       <p>AL-PUB Dataset</p>
       <a href="https://www.kaggle.com/datasets/miswindall/al-pub-v2">
@@ -66,9 +145,9 @@
     </article>
 
     <article class="w3-third">
-      <p>Projects</p>
-      <a href="maker.html">
-        <img src="images/dobot.png" alt="dobot" style="width:15%">
+      <p>AL-SYNTH</p>
+      <a href="https://data.cs.mtsu.edu/al-pub/synth.html">
+        <img src="images/grid.png" alt="dobot" style="width:15%">
       </a>
     </article>
 
