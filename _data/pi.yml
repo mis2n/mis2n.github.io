@@ -1,0 +1,19 @@
+- name: Dr. Matthew I. Swindall
+  photo: circlogo.png
+  info: 
+  email: matthew.swindall@outlook.com
+  github: https://github.com/mis2n
+  researchgate: https://www.researchgate.net/profile/Matthew_Swindall
+  scholar: https://scholar.google.com/citations?user=czlvspgAAAAJ&hl=en
+  cv: ../cv/Matthew_Swindall_CV.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "Ph.D. Computational Science, Middle Tennessee State University",
+      "M.S. Computater Science, Middle Tennessee State University",
+      "B.S. Physics, Middle Tennessee State University",
+      "A.S. Physics, Columbia State Community College"
+    ]
+
+  educationshort:
+    ["Ph.D. Computational Science, MTSU", "M.S. Computer Science, MTSU", "B.S. Physics, MTSU", "A.S. Physics, CSCC"]
