@@ -46,6 +46,19 @@ permalink: /about/
 </div>
 {% endif %}
 
+{% if site.data.certifications %}
+
+<div class="jumbotron">
+  <h3>Certifications</h3>
+  <ul>
+    <li><b>Neo4j Graph Database</b> - Certified Professional</li>
+    <!-- {% for certifications in site.data.ccertifications %}
+      <li>{{ certifications.name | replace: "-","&#8211;" }}</li>
+    {% endfor %} -->
+  </ul>
+</div>
+{% endif %}
+
 {% if site.data.awards %}
 
 <div class="jumbotron">
