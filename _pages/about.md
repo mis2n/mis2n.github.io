@@ -59,6 +59,20 @@ permalink: /about/
 </div>
 {% endif %}
 
+{% if site.data.certifications %}
+
+<div class="jumbotron">
+  <h3>Academic Service</h3>
+  <ul>
+    <li><b>Program Committee</b> - Machine Learning for Ancient Langauges (ML4AL) Workshop at The 62nd Annual Meeting of the Association for Computational Linguistics, 2024</li>
+    <li><b>Reviewer</b> - ACM SIGMIS Computers and People Research Conference, 2024 </li>
+    <!-- {% for certifications in site.data.ccertifications %}
+      <li>{{ certifications.name | replace: "-","&#8211;" }}</li>
+    {% endfor %} -->
+  </ul>
+</div>
+{% endif %}
+
 {% if site.data.awards %}
 
 <div class="jumbotron">
