@@ -3,7 +3,7 @@ title: Dr. Matthew I. Swindall
 email: matthew.swindall@outlook.com
 description: Academic webpage of Dr. Matthew I. Swindall
 baseurl: ""
-url: ""
+url: "https://mis2n.github.io"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -31,7 +31,6 @@ nav_pages:
   - name: projects
 
 include:
-  - .htaccess
   - _pages
 
 # Conversion
@@ -54,7 +53,8 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
-plugins: ['jekyll/scholar']
+plugins:
+  - jekyll-scholar
 
 scholar:
 
