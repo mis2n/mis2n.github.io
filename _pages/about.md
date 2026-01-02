@@ -62,8 +62,12 @@ permalink: /about/
 {% if site.data.certifications %}
 
 <div class="jumbotron">
-  <h3>Academic Service</h3>
+  <h3>Academic & Community Service</h3>
   <ul>
+    <li><b>Engagement Officer</b> - Postdoctoral Society of Argonne, 2026</li>
+    <li><b>Committee Member</b> - Postdoctoral Research and Career Symposium, Postdoctoral Society of Argonne, 2025</li>
+    <li><b>Committee Member</b> - National Postdoc Awareness Week, Postdoctoral Society of Argonne, 2025</li>
+    <li><b>Member at Large (Strategic Security Sciences)</b> - Postdoctoral Society of Argonne, 2025</li>
     <li><b>Program Committee</b> - Machine Learning for Ancient Langauges (ML4AL) Workshop at The 62nd Annual Meeting of the Association for Computational Linguistics, 2024</li>
     <li><b>Reviewer</b> - ACM SIGMIS Computers and People Research Conference, 2024 </li>
     <!-- {% for certifications in site.data.ccertifications %}
