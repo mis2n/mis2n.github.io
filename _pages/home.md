@@ -7,11 +7,7 @@ permalink: /
 
 ### Welcome!
 
-Hello! I am a computational scientist and AI/ML researcher with a background in physics and astronomy. My research focus has been interdisciplinary 
-applications of AI and ML, bridges the gap between state-of-the-art technologies and the study of ancient literary texts 
-utilizing technologies such as Handwritten Text Recognition, Natural Language Processing, and statistical analysis. My work primarily 
-focuses on the field of papyrology, but is broadly applicable to computer vision and language modeling research. I have recently 
-begun a postdoctoral apointment with Argonne National Laboratory, developing AR/VR software for nuclear forensics. Thanks for visiting!
+Hello, and welcome to my page! I am a postdoctoral apointee at Argonne National Laboratory working at the intersection of advanced technology and nuclear forensics. My work is focused on integrating AI/ML and AR/VR technologies into forensic workflows to improve training, safety, and efficiency for radiological work. I also work on a wide array of projects in several disciplines including radiochemistry, cyber security, detector technologies, autonomous discovery, software development, and various AI projects. I am a computational scientist and AI/ML researcher with a background in physics and astronomy. My previous research focus has been interdisciplinary applications of AI and ML, bridging the gap between state-of-the-art technologies and the study of ancient literary texts utilizing technologies such as Handwritten Text Recognition, Natural Language Processing, and statistical analysis. This work primarily focused on the field of papyrology, but is broadly applicable to computer vision and language modeling research.
 
 <div class="container">
 <div class="row">
