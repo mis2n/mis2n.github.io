@@ -38,6 +38,14 @@ iframe {
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 
+<h4>Actinide and Lanthanide Precipitation Experiments at the Advanced Photon Source, Argonne National Laboratory</h4>
+<center>
+<video width="100%" height="100%" autoplay loop muted>
+  <source src="{{ site.url }}{{ site.baseurl }}/videos/CeriumPrecipitation.mp4" type="video/mp4">
+</video>
+</center>
+<br>
+
 <h4>AI-assisted transcription of ancient Greek papyrus fragment</h4>
 <center>
 <video width="100%" height="100%" autoplay loop muted>
