@@ -38,7 +38,7 @@ iframe {
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 
-<h4>Graph RAG Knowledge Base of Conference Proceedings Utilizing Natural Document Structure and Multimodal Data Retrieval with On-Device Inferencing</h4>
+<!-- <h4>Graph RAG Knowledge Base of Conference Proceedings Utilizing Natural Document Structure and Multimodal Data Retrieval with On-Device Inferencing</h4>
 <center>
 <video width="100%" height="100%" autoplay loop muted>
   <source src="{{ site.url }}{{ site.baseurl }}/videos/GRAG.mp4" type="video/mp4">
@@ -52,7 +52,7 @@ iframe {
   <source src="{{ site.url }}{{ site.baseurl }}/videos/aps_exp.mp4" type="video/mp4">
 </video>
 </center>
-<br>
+<br> -->
 
 <h4>AI-assisted transcription of ancient Greek papyrus fragment</h4>
 <center>
