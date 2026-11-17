@@ -23,12 +23,12 @@ years: [2021, 2022, 2023, 2024, 2026]
 </div>
 
 <div class="jumbotron">
-### Refereed journal articles
+### Technical Reports
 {% bibliography --query @techreport %}
 </div>
 
 <div class="jumbotron">
-### Technical Reports
+### Refereed journal articles
 {% bibliography --query @article %}
 </div>
 
