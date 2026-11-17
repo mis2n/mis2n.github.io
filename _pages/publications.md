@@ -3,7 +3,7 @@ title: "Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
-years: [2021, 2022, 2023, 2024]
+years: [2021, 2022, 2023, 2024, 2026]
 ---
 
 <style>
@@ -24,5 +24,12 @@ years: [2021, 2022, 2023, 2024]
 
 <div class="jumbotron">
 ### Refereed journal articles
+{% bibliography --query @techreport %}
+</div>
+
+<div class="jumbotron">
+### Technical Reports
 {% bibliography --query @article %}
 </div>
+
+
